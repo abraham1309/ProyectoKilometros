@@ -1,0 +1,67 @@
+.Formulario .Titulo-formulario {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    padding-top: 58px;
+    padding-left: 57px;
+    padding-right: 55px;
+    line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+}
+
+form {
+    background: rgba(0, 0, 0, 40%);
+    box-shadow: 0 0 50px rgba(0, 86, 167, 0.9);
+    width: 500px;
+    height: 150%;
+    border-radius: 0px;
+}
+
+form .grupo {
+    position: relative;
+    padding-left: 59px;
+}
+
+.Formulario .Caja-texto {
+    background: none;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 85%;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+.Caja-texto:focus {
+    outline: none;
+}
+
+.Formulario .labels {
+    font-family: 'Merienda', cursive;
+    position: absolute;
+    bottom: -7px;
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+
+.Caja-texto:focus~.labels,
+.Caja-texto:valid~.labels {
+    display: none;
+}
+
+.Formulario .BtnIngresar {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    background: #000000;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 110px;
+    color: #ffffff;
+}
+
+.Formulario .BtnIngresar:hover {
+    background-color: rgba(0, 86, 167, 0.9);
+}

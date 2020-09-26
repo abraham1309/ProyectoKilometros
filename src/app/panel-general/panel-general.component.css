@@ -1,0 +1,32 @@
+.ContenedorF {
+    background: rgba(0, 0, 0, 80%);
+    box-shadow: 0 0 50px rgba(0, 86, 167, 0.9);
+    width: 750px;
+    height: 450px;
+    margin-top: 8%;
+    margin-left: 23%;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ContenedorF .Felicidades {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: brown;
+    text-align: center;
+}
+
+.ContenedorF .Texto {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.ContenedorF .TextoA {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
